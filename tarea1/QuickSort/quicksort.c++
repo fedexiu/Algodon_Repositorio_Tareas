@@ -5,55 +5,38 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-/*Parametros: vector<int>& arr, este será el vector a ordenar
-              int left,
-              int mid,
-              int right,
-  Resumen: Este algoritmo toma dos subvectores que ya están ordenados y los junta para crear un vector ordenado.
-  Return: No hay return
-*/
+
 int partition(vector<int> &vec, int low, int high) {
     random_device rd;
     mt19937 gen(rd());  
     uniform_int_distribution<> dist(low, high); 
     int random_number = dist(gen);
-    // Selecting last element as the pivot
     swap(vec[random_number],vec[high]);
     int pivot = vec[high];
 
-    // Index of elemment just before the last element
-    // It is used for swapping
+
     int i = (low - 1);
 
     for (int j = low; j <= high - 1; j++) {
 
-        // If current element is smaller than or
-        // equal to pivot
         if (vec[j] <= pivot) {
             i++;
             swap(vec[i], vec[j]);
         }
     }
 
-    // Put pivot to its position
     swap(vec[i + 1], vec[high]);
 
-    // Return the point of partition
     return (i + 1);
 }
 
 void quickSort(vector<int> &vec, int low, int high) {
 
-    // Base case: This part will be executed till the starting
-    // index low is lesser than the ending index high
     if (low < high) {
 
-        // pi is Partitioning Index, arr[p] is now at
-        // right place
+
         int pi = partition(vec, low, high);
 
-        // Separately sort elements before and after the
-        // Partition Index pi
         quickSort(vec, low, pi - 1);
         quickSort(vec, pi + 1, high);
     }
@@ -80,8 +63,8 @@ int main(){
             int random_number;
 
             for (int i = 0; i < n; i++) {
-                random_number = dist(gen);  // Generar nuevo número en cada iteración
-                v[i] = random_number;           // Asignación directa
+                random_number = dist(gen);  
+                v[i] = random_number;          
                 dataset << random_number << " ";
             }
         }else if(dis==2){
