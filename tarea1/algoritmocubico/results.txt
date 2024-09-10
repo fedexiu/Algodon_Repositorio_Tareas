@@ -1,1 +1,21 @@
-
+Dataset1 Tamaño 32, tamaño de la primera matriz 32 x 32, tamaño de la segunda matriz 32 x 32, tiempo transcurrido: 0.0003039
+Dataset2 Tamaño 64, tamaño de la primera matriz 64 x 64, tamaño de la segunda matriz 64 x 64, tiempo transcurrido: 0.0023289
+Dataset3 Tamaño 128, tamaño de la primera matriz 128 x 128, tamaño de la segunda matriz 128 x 128, tiempo transcurrido: 0.0163604
+Dataset4 Tamaño 256, tamaño de la primera matriz 256 x 256, tamaño de la segunda matriz 256 x 256, tiempo transcurrido: 0.119609
+Dataset5 Tamaño 512, tamaño de la primera matriz 512 x 512, tamaño de la segunda matriz 512 x 512, tiempo transcurrido: 1.12779
+Dataset6 Tamaño 1024, tamaño de la primera matriz 1024 x 1024, tamaño de la segunda matriz 1024 x 1024, tiempo transcurrido: 9.46658
+Dataset7 Tamaño 32, tamaño de la primera matriz 32 x 32, tamaño de la segunda matriz 32 x 64, tiempo transcurrido: 0.0006671
+Dataset8 Tamaño 32, tamaño de la primera matriz 32 x 32, tamaño de la segunda matriz 32 x 128, tiempo transcurrido: 0.0012165
+Dataset9 Tamaño 32, tamaño de la primera matriz 32 x 32, tamaño de la segunda matriz 32 x 256, tiempo transcurrido: 0.0026125
+Dataset10 Tamaño 32, tamaño de la primera matriz 32 x 32, tamaño de la segunda matriz 32 x 512, tiempo transcurrido: 0.0046555
+Dataset11 Tamaño 32, tamaño de la primera matriz 32 x 32, tamaño de la segunda matriz 32 x 1024, tiempo transcurrido: 0.0098881
+Dataset12 Tamaño 64, tamaño de la primera matriz 64 x 64, tamaño de la segunda matriz 64 x 128, tiempo transcurrido: 0.0046043
+Dataset13 Tamaño 64, tamaño de la primera matriz 64 x 64, tamaño de la segunda matriz 64 x 256, tiempo transcurrido: 0.0088783
+Dataset14 Tamaño 64, tamaño de la primera matriz 64 x 64, tamaño de la segunda matriz 64 x 512, tiempo transcurrido: 0.0167414
+Dataset15 Tamaño 64, tamaño de la primera matriz 64 x 64, tamaño de la segunda matriz 64 x 1024, tiempo transcurrido: 0.0317908
+Dataset16 Tamaño 128, tamaño de la primera matriz 128 x 128, tamaño de la segunda matriz 128 x 256, tiempo transcurrido: 0.0310398
+Dataset17 Tamaño 128, tamaño de la primera matriz 128 x 128, tamaño de la segunda matriz 128 x 512, tiempo transcurrido: 0.0652956
+Dataset18 Tamaño 128, tamaño de la primera matriz 128 x 128, tamaño de la segunda matriz 128 x 1024, tiempo transcurrido: 0.12879
+Dataset19 Tamaño 256, tamaño de la primera matriz 256 x 256, tamaño de la segunda matriz 256 x 512, tiempo transcurrido: 0.326086
+Dataset20 Tamaño 256, tamaño de la primera matriz 256 x 256, tamaño de la segunda matriz 256 x 1024, tiempo transcurrido: 0.537237
+Dataset21 Tamaño 512, tamaño de la primera matriz 512 x 512, tamaño de la segunda matriz 512 x 1024, tiempo transcurrido: 2.46105
