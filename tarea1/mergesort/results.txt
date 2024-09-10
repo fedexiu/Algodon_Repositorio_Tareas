@@ -1,1 +1,12 @@
-
+Dataset1 Tamaño 100, aleatorio , tiempo transcurrido: 0.000525
+Dataset2 Tamaño 1000, aleatorio , tiempo transcurrido: 0.0007061
+Dataset3 Tamaño 10000, aleatorio , tiempo transcurrido: 0.0044646
+Dataset4 Tamaño 100000, aleatorio , tiempo transcurrido: 0.035978
+Dataset5 Tamaño 1000000, aleatorio , tiempo transcurrido: 0.379776
+Dataset6 Tamaño 10000000, aleatorio , tiempo transcurrido: 4.15925
+Dataset7 Tamaño 100, semi ordenado , tiempo transcurrido: 0.0003223
+Dataset8 Tamaño 1000, semi ordenado , tiempo transcurrido: 0.0005959
+Dataset9 Tamaño 10000, semi ordenado , tiempo transcurrido: 0.0036348
+Dataset10 Tamaño 100000, semi ordenado , tiempo transcurrido: 0.0365799
+Dataset11 Tamaño 1000000, semi ordenado , tiempo transcurrido: 0.384205
+Dataset12 Tamaño 10000000, semi ordenado , tiempo transcurrido: 4.25242
