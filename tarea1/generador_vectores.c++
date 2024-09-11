@@ -12,7 +12,6 @@ int main(){
 
     int des=1;
     int dis, n;
-    int count =1;
     while(des!=0){
         cout<<"Elige que distribucion quieres usar(1 aleatoria, 2 semi ordenada): ";
         cin>>dis;
@@ -44,6 +43,5 @@ int main(){
         cout<<"Desea continuar(1 si, 0 no): ";
         cin>>des;
     }
-    results.close();
     return 0;
 }
